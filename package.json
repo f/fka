@@ -1,0 +1,23 @@
+{
+  "name": "fka",
+  "version": "0.0.1",
+  "description": "Fatih Kadir Akin About",
+  "bin": {
+    "fka": "fka.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f/fka.git"
+  },
+  "keywords": [
+    "fka",
+    "fatihkadirakin",
+    "fkadev"
+  ],
+  "author": "Fatih Kadir Akin <fatihkadirakin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f/fka/issues"
+  },
+  "homepage": "https://github.com/f/fka#readme"
+}
