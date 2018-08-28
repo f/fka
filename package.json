@@ -1,6 +1,6 @@
 {
   "name": "fka",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fatih Kadir Akin About",
   "bin": {
     "fka": "fka.js"
