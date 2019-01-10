@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/f/fka/issues"
   },
-  "homepage": "https://github.com/f/fka#readme"
+  "homepage": "https://github.com/f/fka#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "got": "^9.5.0",
+    "inquirer": "^6.2.1",
+    "opn": "^5.4.0",
+    "terminal-image": "^0.1.2",
+    "terminal-link": "^1.2.0",
+    "word-wrap": "^1.2.3"
+  }
 }
