@@ -16,7 +16,7 @@ console.log(image)
 console.log(ww(`
 Hello, this is ${c.blue.bold("Fatih Kadir Akın")}!
 
-I'm a passionated ${c.bgRed.white.bold("software developer")} living in ${c.bold("Istanbul, Turkey")}, working for 🐦 ${link(c.hex('#7BBABB').bold('HostMaker.co'), 'https://hostmaker.co')}.
+I'm a passionated ${c.bgRed.white.bold("software developer")} living in ${c.bold("Istanbul, Turkey")}, working for ${link(c.hex('#3858A2').bold('Toolio'), 'https://toolio.com')}.
 
 I ${c.bold("wrote a book")} about ${c.underline.bold.yellow("JavaScript")}. I love being part of development of web technologies. I like to ${c.bold("organize conferences and giving talks")}.
 
