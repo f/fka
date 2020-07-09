@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/f/fka#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "got": "^9.5.0",
-    "inquirer": "^6.2.1",
-    "opn": "^5.4.0",
-    "terminal-image": "^0.1.2",
-    "terminal-link": "^1.2.0",
+    "chalk": "^4.1.0",
+    "got": "^11.5.0",
+    "inquirer": "^7.3.0",
+    "open": "6.0.0",
+    "terminal-image": "^1.1.0",
+    "terminal-link": "^2.1.1",
     "word-wrap": "^1.2.3"
   }
 }

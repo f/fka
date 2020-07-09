@@ -6,10 +6,10 @@ var img = require('terminal-image');
 var got = require('got');
 var ww = require('word-wrap');
 var iq = require('inquirer');
-var opn = require('opn');
+var opn = require('open');
 
-got('https://avatars3.githubusercontent.com/u/196477?s=600&v=4', {encoding: null})
-.then(function (image) { return img.buffer(image.body) })
+got('https://avatars3.githubusercontent.com/u/196477?s=600&v=4', {responseType:'buffer'})
+.then(function (image) { return img.buffer(image.body, {width: '33%'}) })
 .then(function (image) {
 
 console.log(image)
@@ -36,5 +36,5 @@ iq.prompt([
       { name: c.red('👋  Nope. Bye.\n'), value: false }
     ]
   }
-]).then(function (a) { opn(a.open); process.exit() });
-});
+]).then(function (a) { opn(a.open); process.exit() }).catch(function () {});
+}).catch(function (e) { console.log(e)});
