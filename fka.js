@@ -32,6 +32,7 @@ iq.prompt([
     choices: [
       { name: c.gray(`💻  What am I doing about Open Source? (${c.bold('GitHub')})`), value: 'https://github.com/f' },
       { name: c.cyan(`𝕏  What do I think? (${c.bold('X')})`), value: 'https://x.com/fkadev' },
+      { name: c.blue(`🦋  What do I also think? (${c.bold('Bluesky')})`), value: 'https://bsky.app/profile/fka.dev' },
       { name: c.blue(`🏹  Curriculum vitae, the path of my life (${c.bold('LinkedIn')})`), value: 'https://linkedin.com/in/fatihkadirakin' },
       { name: c.red('👋  Nope. Bye.\n'), value: false }
     ]
